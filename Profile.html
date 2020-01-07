@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Sara CSS -->
+  <link rel="stylesheet" href="styleSARA.css" type="text/css">
+
+  <title>Edit profile</title>
+</head>
+
+<body>
+
+  <!-- NAV BAR -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+
+      <!-- B4B LOGO -->
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="logo" style="height: 50px;">
+      </a>
+
+
+      <!-- HOME, USER BUTTON -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="position: relative; top: 6%; right: 100%;">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="btn btnUser" href="#">
+              <img src="images/user.png" style="width: 11%; position: relative; right: 7px;"> Janez Novak
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- BODY OF A EDIT PROFILE -->
+  <!-- Row "divides" screen in 12 columns -->
+  <div class="row section" style="margin: 0px;">
+    <!-- PROFILE -->
+    <div class="col col-lg-4 col-md-4 col-sm-12 col-12 d-flex align-items-center"
+      style="background-color: black; height: 508px;">
+
+      <!-- GOLDEN SQUARE -->
+      <div class="col col-lg-9 col-md-9 col-sm-9 col-9 goldenDiv" style="text-align: center">
+
+        <!-- PROFILE PIC-->
+        <img src="images/user1.jpg" class="profilePic">
+
+        <!-- NAME -->
+        <textarea class="nameTextArea" spellcheck="false" rows="1" cols="0">JANEZ NOVAK</textarea>
+        <!-- EMAIL AND A LINE -->
+        <textarea class="otherTextArea" style="margin-top: 1rem;" spellcheck="false" rows="1"
+          cols="0">janez.novak@gmail.com</textarea>
+        <img src="images/Line 8@3x.png" class="threeLinesPic">
+        <!-- ADDRESS AND A LINE -->
+        <textarea class="otherTextArea" style="margin-top: 1.5rem;" spellcheck="false" rows="1"
+          cols="0">Prešernova ulica 12 a</textarea>
+        <img src="images/Line 8@3x.png" class="threeLinesPic">
+        <!-- POSTAL CODE AND A LINE -->
+        <textarea class="otherTextArea" style="margin-top: 1.5rem;" spellcheck="false" rows="1"
+          cols="0">1000 Ljubljana</textarea>
+        <img src="images/Line 8@3x.png" class="threeLinesPic">
+
+        <!-- SEND BUTTON -->
+        <button class="saveChanges">Save changes</button>
+
+      </div>
+    </div>
+
+    <!-- ADDING BOOKS I WANT-->
+    <div class="header col col-lg-5 col-md-5 col-sm-12 col-12 align-items-center">
+      <label style="display: block;margin-bottom: .5rem;">BOOKS I WANT</label>
+      <input type="text" id="myInput1" class="myInput" placeholder="Title...">
+      <span id="span1" class="addBtn">Add</span>
+
+      <ul id="myUL1" class="myList" style="height: 150px; overflow: auto; margin-bottom:20px;">
+        <li class="myItem">Hit the gym</li>
+        <li class="myItem">Pay bills</li>
+        <li class="myItem">Meet George</li>
+        <li class="myItem">Meet George</li>
+      </ul>
+
+
+      <!-- ADDING BOOKS I OFFER-->
+
+      <label style="display: block;margin-bottom: .5rem;">BOOKS I OFFER</label>
+      <input type="text" id="myInput2" class="myInput" placeholder="Title...">
+      <span id="span2" class="addBtn">Add</span>
+
+      <ul id="myUL2" class="myList" style="height: 150px; overflow: auto">
+        <li class="myItem">Hit the gym</li>
+        <li class="myItem">Pay bills</li>
+        <li class="myItem">Meet George</li>
+        <li class="myItem">Meet George</li>
+      </ul>
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!-- SARA JS -->
+  <script type="text/javascript" src="js/Profile.js"></script>
+</body>
+
+</html>

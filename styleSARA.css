@@ -1,0 +1,265 @@
+/* BODY */
+body {
+    background-color: #E7E1DB;
+}
+
+/* User button */
+.btnUser {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 100px;
+    color: #CE9C6B;
+    padding: 8px 0px;
+}
+
+/* Rid of blue outline */
+button:focus {
+    outline:0;
+}
+
+
+/* ################# */
+/* EDIT PROFILE PAGE CSS */
+/* ################# */
+
+
+/* ######################################################## */
+
+/* ################# */
+/* ADD A BOOK FORM ON EDIT PROFILE PAGE*/
+/* ################# */
+
+
+/* Remove margins and padding from the list */
+.myList {
+    padding: 0;
+    list-style-type: none;
+    color: black;
+    margin-top: 50px;
+}
+
+/* Style the list items */
+.myItem {
+cursor: default;
+padding: 8px 8px 8px 8px;
+background: #eee;
+font-size: 14px;
+}
+
+
+/* Style the close button */
+.close {
+    right: 0;
+    top: 0;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.close:hover {
+    cursor: pointer;
+    color: red;
+}
+
+/* Style the header */
+.header {
+    color: #6C4520;
+    height: 100px;
+    padding-right: 0px;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+
+/* Style the input */
+.myInput {
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 6px;
+    float: left;
+    font-size: 14px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+    padding: 6px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.addBtn:hover {
+background-color: #bbb;
+}
+
+
+/* ######################################################## */
+
+
+
+/* Golden square DIV */
+.goldenDiv {
+    border: 1px solid #FFD9A5;
+    margin-left: 45px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+/* Profile IMG */
+.profilePic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 23px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Golden line IMG */
+.threeLinesPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+}
+
+
+/* User name TEXT AREA*/
+.nameTextArea{
+    color: #CE9C6B;
+    background-color: black;
+    margin-bottom: 1.2rem;
+    padding: 0px;
+    width: 250px;
+    height: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* remove the blue glow */
+    outline: none;
+    /* remove resize handle */
+    resize: none;
+    border: none;
+}
+
+/* Email, Address, Postal Code TEXT AREA*/
+.otherTextArea{
+    color:white;
+    background-color: black;
+    font-size: 14px;
+    margin-bottom: 0.8rem;
+    padding: 0px;
+    width: 250px;
+    height: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* remove the blue glow */
+    outline: none;
+    /* remove resize handle */
+    resize: none;
+    border: none;
+}
+
+/* SAVE CHANGES BUTTON */
+.saveChanges {
+    border: 1px solid #CE9C6B;
+    text-align: center;
+    border-radius: 100px;
+    padding: 10px 8px;
+    width: 110px;
+    background-color: #CE9C6B;
+    color: white;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+
+
+/* ################# */
+/* REQUEST PAGE CSS */
+/* ################# */
+
+/* TEXT AREA */
+.textareaRequest {
+    background-color: black;
+    height: 150px;
+    width: 340px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 20px;
+    bottom: 30px;
+    color: #E7E1DB;
+    /* remove the blue glow */
+    outline: none;
+    /* remove resize handle */
+    resize: none;
+    border: none;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+
+/* DIV */
+.blackDiv {
+    background-color: black;
+}
+
+/* BUTTONS */
+/* Meet button */
+.meet {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 100px;
+    padding: 8px 0px;
+    height: 45px;
+    width: 110px;
+    background-color: #E7E1DB;
+    position: relative;
+    left: 170px;
+    bottom: 50px;
+}
+
+/* DPD button */
+.dpd {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 100px;
+    padding: 8px 0px;
+    height: 45px;
+    width: 110px;
+    background-color: BLACK;
+    color: white;
+    left: 55px;
+    top: 60px;
+    position: relative;
+}
+
+/* SEND button */
+.send {
+    border: 1px solid #CE9C6B;
+    text-align: center;
+    border-radius: 100px;
+    padding: 8px 0px;
+    height: 45px;
+    width: 110px;
+    background-color: #CE9C6B;
+    color: white;
+    right: 270px;
+    top: 185px;
+    position: relative;
+    font-size: 14px;
+}

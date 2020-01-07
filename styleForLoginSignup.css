@@ -1,0 +1,220 @@
+body {
+    font: normal 17px;
+    background-color: #E7E1DB;
+}
+
+.main-text {
+    text-align: left;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+#title-text{
+    text-align: left;
+}
+
+.section {
+    margin-top: 3%;
+}
+
+.category-section{
+    padding-top: 100px;
+}
+
+.category {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    height: 100%;
+}
+
+.categories > div {
+    padding-bottom: 30px;
+}
+
+#category-text {
+    text-align: center;
+    padding: 15px 0 5px 0;
+    margin: 20px;
+}
+
+.footer { 
+    background-color: #E7E1DB;
+}
+
+.footer-text {
+    padding-top: 50px;
+}
+
+.book-pic {
+    width: 100%;
+    float: center;
+}
+
+.pic {
+    width: 100%;
+}
+
+#offer-text {
+    padding-top: 20px;
+}
+
+.offer-section {
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.stars {
+    margin: 20px 0 20px 0;
+}
+
+.crta {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.black-container{
+    margin-top: 100px;
+    background-color: black;
+    height: 400px;
+}
+
+.black-background {
+    background-color: #E7E1DB;;
+    height: 100%;
+}
+
+.description {
+    color: black;
+    padding: 20px;
+    background-color: #E7E1DB;;
+}
+
+.offer-box {
+    width: 100%; 
+    height: 100%;
+    background-color: #E7E1DB;;
+}
+
+.offer-pic {
+    width: 30%; 
+    float: left; 
+    padding: 10px; 
+}
+
+.offer-info {
+    width: 70%; 
+    float: left;
+    height: 100%;
+    padding: 10px 30px;
+    color: black;
+}
+
+.offer-button {
+    float: right; 
+    background-color: #CE9C6B; 
+    border-color: white;
+    color: black;
+}
+
+.book-box {
+    width: 100%;
+    padding: 30px;
+    border-bottom: 2px solid black;
+}
+
+.book-info {
+    width: 70%; 
+    float: left;
+    height: 100%;
+    padding: 10px 30px;
+    color: black;
+}
+
+.book-img {
+    width: 30%; 
+    float: left; 
+    padding: 10px; 
+}
+
+.login-box {
+    width: 30%;
+    margin: 5px auto;
+}
+
+
+.login-line-text {
+    float: left;
+    margin: 10px;
+}
+
+.img-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.login-titletext {
+    font-weight: bold; 
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.txt-container {
+    text-align: center;
+    padding: 15px;
+}
+
+.out-container {
+    background-color: #E7E1DB; 
+    height: 100vh;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #CE9C6B;
+    border: none !important;
+}
+
+
+.login-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+    #title-text {
+        text-align: center;
+        width: 100%;
+    }
+
+    #bookstack {
+        display: none;
+    }
+    
+    .category-section {
+        padding: 0;
+    }
+
+    .black-container {
+
+        margin-top: 40px;
+        height: 400px;
+    
+    }
+
+    .book-pic {
+        width: 50%;
+        float: center;
+    }
+}
+
+@media (max-width: 992px) { 
+    .book-pic {
+        width: 80%;
+        float: center !important;
+        margin: 0 auto;
+    } 
+}
+

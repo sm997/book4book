@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Sara CSS -->
+  <link rel="stylesheet" href="styleSARA.css" type="text/css">
+
+  <title>Request book</title>
+</head>
+
+<body>
+
+  <!-- NAV BAR -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container">
+
+      <!-- B4B LOGO -->
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="logo" style="height: 50px;margin-left: 6px;">
+      </a>
+
+
+      <!-- HOME, USER BUTTON -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="position: relative; top: 6%; right: 100%;">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="btn btnUser" href="#">
+              <img src="images/user.png" style="width: 11%; position: relative; right: 7px;"> Janez Novak
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- BODY OF A REQUEST -->
+  <!-- Container centers elements -->
+  <div class="container">
+    <!-- Row "divides" screen in 12 columns -->
+    <div class="row section">
+
+      <!-- DIV USER PICTURE -->
+      <div
+        style="background-color: black; height: 280px; width: 340px; position: absolute; margin-left: 60px; margin-top: 30px;">
+        <img src="images/user1.jpg" style="width: 55%; position: absolute; right: 25px; top: 50px;">
+      </div>
+
+      <!-- ADD A NOTE/MESSAGE -->
+      <textarea class="textareaRequest"placeholder="Message..."></textarea>
+
+      <!-- NAME LABEL, PIN AND KM, FANCY LINE -->
+      <div class="col col-lg-6 offset-lg-4" style="position: relative; left: 60px; height: 150px; margin-top: 100px;">
+        <label style="color: #6C4520; font-size: 25px; position: relative;">Janez Novak</label>
+        <img src="images/pin.png" style="width: 5%; position: relative; right: 145px; top: 55px;"><label
+          style="position: relative; right: 133px; top: 59px; font-size: 20px;">3km</label>
+        <img src="images/line.png"
+          style="width: 100%; position: absolute; margin-top: 10px; bottom: 0px; display: inherit;">
+        
+          <!--MEET AND DPD BUTTONS-->
+        <button class="meet">Meet</button>
+        <label style="position: absolute;color: #6C4520;right: 109px;top: 15px;">OR</label>
+        <button class="dpd">DPD</button>
+      </div>
+
+      <!-- DROP DOWN BOOK SELECTION -->
+      <div class="dropdown col col-lg-6 offset-lg-4" style="position:relative; left: 60px; margin-top: 20px">
+        <button style="width: 106%;outline: none;background-color: white;padding: 12px 12px;border-color: #6C4520;color: #6C4520;"class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Select a book
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Book1</a>
+          <a class="dropdown-item" href="#">Book2</a>
+          <a class="dropdown-item" href="#">Book3</a>
+        </div>
+      </div>
+
+      <!-- SEND BUTTON -->
+      <button class="send">Send</button>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
